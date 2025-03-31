@@ -343,9 +343,9 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-600 italic">
-                "Pentol baksonya juara! Teksturnya pas, bumbunya meresap
+                Pentol baksonya juara! Teksturnya pas, bumbunya meresap
                 sempurna. Sudah langganan 2 tahun dan nggak pernah kecewa.
-                Rekomendasi buat yang suka kuliner street food berkualitas."
+                Rekomendasi buat yang suka kuliner street food berkualitas
               </p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-lg">
@@ -367,9 +367,9 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-600 italic">
-                "Pentol Keju favoritku! Kejunya meleleh sempurna, bener-bener
+                Pentol Keju favoritku! Kejunya meleleh sempurna, bener-bener
                 bikin nagih. Tempatnya juga bersih dan pelayanannya ramah. Worth
-                it banget dengan harganya."
+                it banget dengan harganya.
               </p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-lg">
@@ -391,9 +391,9 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-600 italic">
-                "Tahu Isi Baksonya the best! Baru nyobain minggu lalu dan
+                Tahu Isi Baksonya the best! Baru nyobain minggu lalu dan
                 langsung jadi favorit keluarga. Cocok banget buat ngemil sore
-                atau buka puasa. Bakalan jadi langganan nih!"
+                atau buka puasa. Bakalan jadi langganan nih!
               </p>
             </div>
           </div>
