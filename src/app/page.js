@@ -137,7 +137,7 @@ export default function Home() {
           <p className="text-xl text-center max-w-2xl">
             Kelezatan Tradisional Sejak 2010 • Rahasia Bumbu 3 Generasi
           </p>
-          <div className="flex gap-4 mt-6">
+          <div className="grid grid-cols-1 sm:flex gap-4 mt-6">
             <button className="bg-orange-600 hover:bg-orange-700 text-white font-bold py-3 px-6 rounded-full transition duration-300 flex items-center">
               <FontAwesomeIcon icon={faShoppingBag} className="mr-2" />
               Pesan Sekarang
@@ -413,7 +413,7 @@ export default function Home() {
               <p className="text-gray-600 mb-2">
                 Buka Setiap Hari: 10.00 - 21.00 WIB
               </p>
-              <p className="text-gray-600 mb-6">Telp: 081234567890</p>
+              <p className="text-gray-600 mb-6">Telp: 0858 5282 1544</p>
               <div className="h-40 bg-gray-200 rounded-lg"></div>
             </div>
             <div>
