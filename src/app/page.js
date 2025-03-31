@@ -325,7 +325,7 @@ export default function Home() {
                   BR
                 </div>
                 <div className="ml-4">
-                  <h4 className="font-medium">Budi Raharjo</h4>
+                  <h4 className="font-medium text-slate-700">Budi Raharjo</h4>
                   <div className="flex">
                     {[1, 2, 3, 4, 5].map((star) => (
                       <FontAwesomeIcon
@@ -349,7 +349,7 @@ export default function Home() {
                   RN
                 </div>
                 <div className="ml-4">
-                  <h4 className="font-medium">Rina Novianti</h4>
+                  <h4 className="font-medium text-slate-700">Rina Novianti</h4>
                   <div className="flex">
                     {[1, 2, 3, 4, 5].map((star) => (
                       <FontAwesomeIcon
@@ -373,7 +373,7 @@ export default function Home() {
                   AS
                 </div>
                 <div className="ml-4">
-                  <h4 className="font-medium">Agus Santoso</h4>
+                  <h4 className="font-medium text-slate-700">Agus Santoso</h4>
                   <div className="flex">
                     {[1, 2, 3, 4, 5].map((star) => (
                       <FontAwesomeIcon
@@ -408,7 +408,7 @@ export default function Home() {
             <div>
               <h3 className="font-medium text-gray-800 mb-4">Lokasi Kami</h3>
               <p className="text-gray-600 mb-2">
-                Jl. Pentol Enak No. 123, Malang
+                Jl. Dinoyo Alun-ALun II no 36C
               </p>
               <p className="text-gray-600 mb-2">
                 Buka Setiap Hari: 10.00 - 21.00 WIB
