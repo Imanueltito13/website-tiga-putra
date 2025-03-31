@@ -505,12 +505,9 @@ export default function Home() {
               <h4 className="font-bold mb-4">Kontak</h4>
               <ul className="space-y-2">
                 <li className="text-gray-400">
-                  Jl. Pentol Enak No. 123, Malang
+                  Jl. Dinoyo Alun-Alun II no 36C
                 </li>
-                <li className="text-gray-400">Tel: 081234567890</li>
-                <li className="text-gray-400">
-                  Email: info@pentoltigaputra.com
-                </li>
+                <li className="text-gray-400">Telp: 085852821544</li>
               </ul>
             </div>
             <div>
