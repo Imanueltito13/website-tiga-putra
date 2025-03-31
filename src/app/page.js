@@ -9,11 +9,12 @@ import {
   faStar,
   faShoppingBag,
 } from "@fortawesome/free-solid-svg-icons";
+import Image from "next/image";
 
 const menuItems = [
   {
     _id: "1",
-    image: "image/pentol.jpeg",
+    image: "/image/pentol.jpeg",
     menu: "Pentol Original",
     category: "Pentol",
     isBestSeller: true,
@@ -23,7 +24,7 @@ const menuItems = [
   },
   {
     _id: "2",
-    image: "image/pentol.jpeg",
+    image: "/image/pentol.jpeg",
     menu: "Pentol Pedas",
     category: "Pentol",
     isBestSeller: false,
@@ -33,7 +34,7 @@ const menuItems = [
   },
   {
     _id: "3",
-    image: "image/pentol.jpeg",
+    image: "/image/pentol.jpeg",
     menu: "Tahu Isi Bakso",
     category: "Tahu",
     isBestSeller: true,
@@ -43,7 +44,7 @@ const menuItems = [
   },
   {
     _id: "4",
-    image: "image/pentol.jpeg",
+    image: "/image/pentol.jpeg",
     menu: "Siomay Ayam",
     category: "Siomay",
     isBestSeller: false,
@@ -53,7 +54,7 @@ const menuItems = [
   },
   {
     _id: "5",
-    image: "image/pentol.jpeg",
+    image: "/image/pentol.jpeg",
     menu: "Batagor Mini",
     category: "Goreng",
     isBestSeller: false,
@@ -63,7 +64,7 @@ const menuItems = [
   },
   {
     _id: "6",
-    image: "image/pentol.jpeg",
+    image: "/image/pentol.jpeg",
     menu: "Pentol Keju",
     category: "Pentol",
     isBestSeller: true,
@@ -73,7 +74,7 @@ const menuItems = [
   },
   {
     _id: "7",
-    image: "image/pentol.jpeg",
+    image: "/image/pentol.jpeg",
     menu: "Tahu Bakso",
     category: "Tahu",
     isBestSeller: false,
@@ -83,7 +84,7 @@ const menuItems = [
   },
   {
     _id: "8",
-    image: "image/pentol.jpeg",
+    image: "/image/pentol.jpeg",
     menu: "Pentol Goreng Crispy",
     category: "Goreng",
     isBestSeller: false,
@@ -228,9 +229,11 @@ export default function Home() {
                           className="flex items-center gap-3 mb-3 pb-3 border-b"
                         >
                           <div className="w-12 h-12 rounded-md overflow-hidden">
-                            <img
+                            <Image
                               src={item.image}
                               alt={item.menu}
+                              width={500} // Sesuaikan dengan kebutuhan
+                              height={300} // Sesuaikan dengan kebutuhan
                               className="w-full h-full object-cover"
                             />
                           </div>
@@ -263,10 +266,12 @@ export default function Home() {
                 className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
               >
                 <div className="relative h-56 overflow-hidden">
-                  <img
-                    className="w-full h-full object-cover"
+                  <Image
                     src={item.image}
                     alt={item.menu}
+                    width={500} // Sesuaikan dengan kebutuhan
+                    height={300} // Sesuaikan dengan kebutuhan
+                    className="w-full h-full object-cover"
                   />
                   {item.isBestSeller && (
                     <div className="absolute top-0 left-0 bg-red-600 text-white px-3 py-1 rounded-br-lg font-medium text-sm flex items-center">
